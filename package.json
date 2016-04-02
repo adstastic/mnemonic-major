@@ -1,0 +1,11 @@
+{
+  "name": "mnemonic-major",
+  "version": "1.0.0",
+  "description": "Encodes numbers to words using the mnemonic major system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adi Mukherjee",
+  "license": "MIT"
+}
