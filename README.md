@@ -22,8 +22,8 @@ The mnemonic major system is intended to be used for human memorisation of large
 
 ## Dependencies
 
-* **Node.js >= v5.x.x** for ES6 features
-* **lodash**
+* [**Node.js >= v5.x.x** for ES6 features](https://nodejs.org/en/docs/es6/)
+* [**lodash**](https://lodash.com/)
 
 ## Things to do
 * Automate chunking 
