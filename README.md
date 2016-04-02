@@ -13,6 +13,9 @@ e.g. `node index.js 01234567890 3,2,5`
 
 There is a default setting for when chunking is unspecified.
 
+Change the encoding by editing `encoding.json`.  
+Change the word list by editing `words.txt`.  
+
 Word matching is done by sequentially searching through the entire word list, checking if the consonants required are in the correct order, and that no other consonants are contained in the word being checked.
 
 The mnemonic major system is intended to be used for human memorisation of large numbers and  works best when the words returned are easily visualised so a sequence of images can be constructed easy memorisation and recall. Doing this programmatically is quite far into the realm of machine learning so I'm not going to attempt it here. 
