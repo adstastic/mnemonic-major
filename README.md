@@ -9,7 +9,7 @@ Inputs: number to be encoded, comma-delimited list of chunk lengths e.g. for a n
 To run: `node index.js arg x,y,z`  
 **arg** must be a number  
 **x**+**y**+**z** must be the length of **arg**  
-e.g. `node index.js 01234567890 3,2,5`  
+e.g. `node index.js 0123456789 3,2,5`  
 
 There is a default setting for when chunking is unspecified.
 
