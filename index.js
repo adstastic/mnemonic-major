@@ -19,18 +19,7 @@ let chunkList = (() => {
     }
 })();
 
-const dict = {
-    '0' : ['c','z'],
-    '1' : ['d','l'],
-    '2' : ['n','t'],
-    '3' : ['m','w'],
-    '4' : ['r','y'],
-    '5' : ['f','v'],
-    '6' : ['j','q'],
-    '7' : ['s','k'],
-    '8' : ['g','h'],
-    '9' : ['b','p']
-};
+const dict = JSON.parse(fs.readFileSync('encoding.json', 'utf8'));
 
 String.prototype.hasOne = function(char) {
     var first = this.indexOf(char);
