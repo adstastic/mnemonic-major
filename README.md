@@ -6,10 +6,10 @@ Uses the [mnemonic major system](https://en.wikipedia.org/wiki/Mnemonic_major_sy
 
 Inputs: number to be encoded, comma-delimited list of chunk lengths e.g. for a number `5` digits long, the chunking could be `3,2`.
 
-To run: `node index.js arg x,y,z`
-**arg** must be a number
-**x**+**y**+**z** must be the length of **arg**
-e.g. `node index.js 01234567890 3,2,5`
+To run: `node index.js arg x,y,z`  
+**arg** must be a number  
+**x**+**y**+**z** must be the length of **arg**  
+e.g. `node index.js 01234567890 3,2,5`  
 
 There is a default setting for when chunking is unspecified.
 
